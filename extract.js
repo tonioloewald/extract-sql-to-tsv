@@ -110,7 +110,6 @@ fs.readFile(fileName, 'utf8', (err, source) => {
       const data = rows.map(row => row.join('\t')).join('\n')
       fs.writeFile(fileName, data, (err) => {
         if (err) { console.log(err) } else {
-          console.log('columns:', ...columns)
           console.log('saved', inserts.length, `records to ${fileName}`)
         }
       })
