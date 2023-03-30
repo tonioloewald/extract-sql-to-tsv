@@ -64,11 +64,6 @@ fs.readFile(fileName, 'utf8', (err, source) => {
         }
       }
       tables[tableName].inserts.push(record.join('\\n'))
-      /*
-      if (record[0].startsWith(`INSERT INTO ${prefix}${tableName} `)) {
-        inserts.push(record.join('\\n'))
-      }
-      */
     }
   }
 
