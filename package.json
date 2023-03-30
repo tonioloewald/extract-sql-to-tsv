@@ -1,0 +1,30 @@
+{
+  "name": "extract-sql-to-tsv",
+  "version": "1.0.0",
+  "description": "a utility for extracting TSV data from SQL dumps",
+  "main": "extract.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonioloewald/extract-sql-to-tsv.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "command-line",
+    "tsv",
+    "sql",
+    "postgresql"
+  ],
+  "author": "Tonio Loewald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonioloewald/extract-sql-to-tsv/issues"
+  },
+  "homepage": "https://github.com/tonioloewald/extract-sql-to-tsv#readme",
+  "devDependencies": {
+    "standardjs": "^1.0.0-alpha"
+  }
+}
