@@ -36,7 +36,7 @@ function getCells (sqlString) {
       sqlString = endIndex > -1 ? sqlString.substring(endIndex + 2) : ''
     }
   }
-  return cells
+  return cells.map(cell => cell.replace(/\t/g, '\\t'))
 }
 
 fs.readFile(fileName, 'utf8', (err, source) => {
